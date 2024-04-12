@@ -1,3 +1,5 @@
+use std::fs::File;
+
 fn main() {
-    println!("Hello, world!");
+  let _input = File::open("tests/fixtures/marc_data.mrc").unwrap();
 }
